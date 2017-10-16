@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 根节点 -->
+<!-- namespace:包名+文件名 -->
+<mapper namespace="com.zl.dao.BillMapper">
+	<select id="query" resultType="Bill">
+		select * from bill limit 0,200;
+	</select>
+</mapper>
